@@ -2,12 +2,24 @@
 <html>
     <head>
         <title>자기 소개</title>    <!--페이지의 제목, 브라우저의 타이틀 바에 출력-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Sunflower:wght@300&display=swap" rel="stylesheet">
     </head>
-
-    <body>  <!--문서본문-->
-        <h1 title = "h1 태그로 작성"> 자기 소개  </h1>       <!--가장 큰 제목-->
-        <hr>
-        <h2 title = "h2 태그로 작성"> 박종석</h2>
+    <style>
+        body{
+            background-color:rgb(162, 219, 145);
+            color:rgb(255, 255, 255);
+            font-family: 'Dongle', sans-serif;
+            font-family: 'Sunflower', sans-serif;
+            font-size:30
+        }
+    </style>
+    <body>  <!--문서본문-->     
+        <h1> 자기 소개  </h1>    <!--가장 큰 제목-->
+        <hr style="border: solid 5px white;">
+        <img src="https://ifh.cc/g/zrbWFD.jpg" align="left" width="300" height = 350">
+        <h2> 박종석</h2>
         <h3> 단국대학교 3학년</h3>  <!--h6까지 제공-->
         <p>단락 나누기</p>
         &ltbr&gt로 다음줄로 넘어가기<br>
@@ -16,12 +28,15 @@
         배경색을 파란색으로 꾸미는 css스타일
         <span style = "color:white">하얀색 글씨</span></div>
         <p>
+           
             순서있는 리스트
             <ol type = "i">
+               
                 <li>첫번째</li>
                 <li>두번째</li>
                 <li>세번째</li>
                 <li>네번째</li>
+               
             </ol>
             순서없는 중첩리스트
             <ul>
@@ -37,7 +52,8 @@
                 <dt><strong>정의 리스트</strong>
                 <dd> <br>정의리스트 설명</dd></dt>
             </dl>
-        </p>
+        
+          </p>
         <!--테이블 만들기-->
         <p>테이블 만들기
             <hr>
@@ -65,6 +81,6 @@
                 </tr>
             </tbody>
         </table>
-             
+    
     </body>
 </html>
